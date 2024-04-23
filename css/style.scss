@@ -4,6 +4,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+    font-family:'Jost500Medium';
+    src: url('/fonts/Jost/Jost500Medium.otf');
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,9 +52,325 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+// phone styles
+
+
 body{
-    background: red;
+    overflow-x: hidden;
+   
 }
+.banner{
+    .background-image{
+        height: 100vh;
+        width: 100%;
+        background-image: url("../images/Rectangle\ 2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+   
+        display: flex;
+        justify-content: space-between;
+        .overlay{
+            background: rgba(0, 0, 0, 0.205);
+            width: 100%;
+        }
+    .mobile-nav{
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hamburger{
+        border: 2px solid brown;
+        height: 4rem;
+        width: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    
+        .line{
+            height: 2px;
+            width: 70%;
+            background: brown;
+        
+    
+    }
+}
+    
+
+.pc-nav{
+    display: none;
+    
+}
+}
+
+}
+.why-us{
+    padding: 30px;
+.container{
+    
+        display: flex;
+        flex-direction: row;
+   
+    .row{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        
+        .overlay{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+             justify-content: space-around;
+            height: 125%;
+        }
+ 
+    .left{
+        height: 30vh;
+        background-image: url("../images/Rectangle\ 14.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 20%;
+        .box{
+            height: 35vh;
+            display: flex;
+            // flex-direction: row;
+            height: 25%;
+            width: 25%;
+            background: maroon;
+            border: 3px solid white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-family: 'Jost500Medium';
+           
+          
+        }
+    }
+}
+    
+    .right{
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Jost500Medium';
+        h2{
+            color: maroon;
+            font-family: 'Jost500Medium';
+        }
+        .btn{
+            background: transparent;
+            color: maroon;
+            border: 3px solid maroon;
+            padding: 10px 25px;
+        }
+    }
+
+}
+}
+.projects{
+    font-family: 'Jost500Medium';
+   margin-top: -5%;
+    .container{
+        .row{
+           .left{
+            height: 50vh;
+            background: maroon;
+            color: white;
+            display: flex;
+            flex-direction: column;
+           } 
+           .right{
+           .photo{
+            color: white;
+            display: flex;
+            text-align: left;
+            justify-content: baseline;
+           
+           
+           
+            .img1{
+
+                background-image: url("../images/Rectangle\ 24.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+                
+            }
+            .img2{
+
+                background-image: url("../images/Rectangle\ 20.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+            }
+            .img3{
+
+                background-image: url("../images/Rectangle\ 23.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+            }
+            .img4{
+
+                background-image: url("../images/Rectangle\ 21.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+            }
+            .img5{
+
+                background-image: url("../images/Rectangle\ 14.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+            }
+            .img6{
+
+                background-image: url("../images/Rectangle\ 22.jpg");
+                height: 25vh;
+                width: 25vh;
+                background-size: cover;
+                background-position: center;
+                border: 1px solid maroon;
+            }
+           }
+        }
+        }
+    }
+ 
+}
+.donate{
+    font-family: 'Jost500Medium';
+    margin-top: 5%;
+    
+    .background{
+        width: 100%;
+        align-items: center;
+        background-image: url("../images/pexels-cdc-3992949\ 1.jpg");
+        background-position: center;
+         height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .overlay{
+            
+            background: rgba(0, 0, 0, 0.541);
+            height:50vh ;
+          
+    .row{
+        padding: 1rem;
+        .left{
+      
+ .donate-text{
+   
+   
+             h2{
+      color: white;
+      padding-bottom: 50px;
+                    }
+   }
+  .btr{
+                                        
+      display: flex;         
+      gap: 10px;
+                                                 
+
+                                                 form{
+                                                  input{
+                                                //   padding-right: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px 15px;     
+                                                   }
+                                                   }
+                                                
+  button{
+  background: maroon;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+}
+}
+}
+}
+}                   
+ }
+}
+
+
+
+.responsibility{
+    font-family: 'Jost500Medium';
+    padding: 50px;
+    .container{
+        padding: 30px;
+       margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid maroon;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.footer{
+    font-family: 'Jost500Medium';
+    padding: 40px;
+   
+    background: maroon;
+    color: white;
+    display: flex;
+    .row{
+        display: flex;
+        flex-direction: row;
+
+        .text{
+            display: flex;
+            font-weight: 600;
+            gap: 10px;
+            .dots-container{
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+            }
+            .dots{
+               
+        
+                color: white;
+                height: 15px;
+                width: 15px;
+                background-color: black;
+                border: 3px solid white;
+                border-radius: 50%;
+                gap: 10px;
+              
+            }
+        }
+        img{
+            width: 60px;
+            height: 60px;
+           
+        }
+    }
+}
+
+
 
 
 
@@ -80,13 +400,148 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
+    
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    
+
+    .banner{
+        position: relative;
+       
+        .mobile-nav{
+            display: none !important;
+        }
+    .nav-container{
+           position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: transparent;
+    
+            
+            
+    .pc-nav{
+        display: block !important;
+        width: 70%;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        padding-top: 50px;
+        
+        height: fit-content;
+    
+        .nav-icons{
+            height: 70px;
+            width: 70px;
+            background: maroon;
+            margin-right: -1px;
+            
+    
+        }
+        .nav-icons1{
+            height: 70px;
+            width: 70px;
+            background: maroon;
+            margin-left: -32px;
+            
+    
+        }
+        ul{
+            
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      background: white;
+      color: maroon;
+      li{
+        font-weight: 500;
+        font-family:'Jost500Medium';
+      }
+    }
+}
+}
+
 
 }
+}
+.why-us{
+    padding: 30px;
+.container{
+    
+        display: flex;
+        flex-direction: row;
+   
+    .row{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        
+        .overlay{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+             justify-content: space-around;
+            height: 125%;
+        }
+ 
+    .left{
+        height: 40vh;
+        background-image: url("../images/Rectangle\ 14.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 20%;
+        .box{
+            height: 35vh;
+            display: flex;
+            // flex-direction: row;
+            height: 25%;
+            width: 25%;
+            background: maroon;
+            border: 3px solid white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+           
+          
+        }
+    }
+}
+    
+    .right{
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            color: maroon;
+        }
+        .bold{
+            font-weight: 700;
+            .meikles{
+                color: maroon;
+            }
+        }
+        .btn{
+            background: transparent;
+            color: maroon;
+            border: 3px solid maroon;
+            padding: 10px 25px;
+        }
+    }
+
+}
+}
+
+                                                
+ 
+
+
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
