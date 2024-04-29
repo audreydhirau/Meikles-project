@@ -175,12 +175,10 @@ body {
 }
 
 .why-us .container .row .left .box {
-  height: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 25%;
-  width: 25%;
+  width: 35%;
   background: maroon;
   border: 3px solid white;
   text-align: center;
@@ -210,11 +208,19 @@ body {
   font-family: 'Jost500Medium';
 }
 
+.why-us .container .right .bold {
+  font-weight: 700;
+}
+
+.why-us .container .right .bold .meikles {
+  color: maroon;
+}
+
 .why-us .container .right .btn {
   background: transparent;
   color: maroon;
   border: 3px solid maroon;
-  padding: 10px 25px;
+  padding: 6px 10px;
 }
 
 .projects {
@@ -305,7 +311,7 @@ body {
   margin-top: 5%;
 }
 
-.donate .background {
+.donate .container .background {
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -317,35 +323,35 @@ body {
   background-repeat: no-repeat;
 }
 
-.donate .background .overlay {
+.donate .container .background .overlay {
   background: rgba(0, 0, 0, 0.541);
   height: 50vh;
 }
 
-.donate .background .overlay .row {
+.donate .container .background .overlay .row {
   padding: 1rem;
 }
 
-.donate .background .overlay .row .left .donate-text h2 {
+.donate .container .background .overlay .row .left .donate-text h2 {
   color: white;
   padding-bottom: 50px;
 }
 
-.donate .background .overlay .row .left .btr {
+.donate .container .background .overlay .row .left .btr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
 
-.donate .background .overlay .row .left .btr form input {
+.donate .container .background .overlay .row .left .btr form input {
   background-color: transparent;
   border: 2px solid white;
   color: #fff;
   padding: 10px 15px;
 }
 
-.donate .background .overlay .row .left .btr button {
+.donate .container .background .overlay .row .left .btr button {
   background: maroon;
   color: white;
   padding: 8px 10px;
@@ -395,6 +401,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.footer .row .choose p {
+  color: rgba(252, 244, 244, 0.479);
 }
 
 .footer .row .text {
@@ -516,103 +526,140 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-weight: 500;
     font-family: 'Jost500Medium';
   }
-}
-
-.why-us {
-  padding: 30px;
-}
-
-.why-us .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.why-us .container .row {
-  padding-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.why-us .container .row .overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 125%;
-}
-
-.why-us .container .row .left {
-  height: 40vh;
-  background-image: url("../images/Rectangle 14.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 20%;
-}
-
-.why-us .container .row .left .box {
-  height: 35vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 25%;
-  width: 25%;
-  background: maroon;
-  border: 3px solid white;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #fff;
-}
-
-.why-us .container .right {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.why-us .container .right h2 {
-  color: maroon;
-}
-
-.why-us .container .right .bold {
-  font-weight: 700;
-}
-
-.why-us .container .right .bold .meikles {
-  color: maroon;
-}
-
-.why-us .container .right .btn {
-  background: transparent;
-  color: maroon;
-  border: 3px solid maroon;
-  padding: 10px 25px;
+  .why-us {
+    padding: 30px;
+  }
+  .why-us .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .why-us .container .row {
+    padding-top: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .why-us .container .row .overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 125%;
+  }
+  .why-us .container .row .left {
+    height: 70vh;
+    background-image: url("../images/Rectangle 14.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20%;
+  }
+  .why-us .container .row .left .box {
+    height: 35vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 25%;
+    width: 25%;
+    background: maroon;
+    border: 3px solid white;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+  }
+  .why-us .container .right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .why-us .container .right h2 {
+    color: maroon;
+  }
+  .why-us .container .right .bold {
+    font-weight: 700;
+  }
+  .why-us .container .right .bold .meikles {
+    color: maroon;
+  }
+  .why-us .container .right .btn {
+    background: transparent;
+    color: maroon;
+    border: 3px solid maroon;
+    padding: 10px 25px;
+  }
+  .donate {
+    font-family: 'Jost500Medium';
+    margin-top: 5%;
+  }
+  .donate .container .background {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../images/pexels-cdc-3992949 1.jpg");
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .donate .container .background .overlay {
+    background: rgba(0, 0, 0, 0.541);
+    height: 50vh;
+  }
+  .donate .container .background .overlay .row {
+    padding: 4rem;
+  }
+  .donate .container .background .overlay .row .left .donate-text h2 {
+    color: white;
+    padding-bottom: 50px;
+    width: 120%;
+  }
+  .donate .container .background .overlay .row .left .btr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  .donate .container .background .overlay .row .left .btr form input {
+    width: 20rem;
+  }
+  .donate .container .background .overlay .row .left .btr form input {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    padding: 10px 15px;
+  }
+  .donate .container .background .overlay .row .left .btr button {
+    background: maroon;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

@@ -136,11 +136,11 @@ body{
         background-repeat: no-repeat;
         margin-bottom: 20%;
         .box{
-            height: 35vh;
+            // height: 35vh;
             display: flex;
             // flex-direction: row;
-            height: 25%;
-            width: 25%;
+            // height: 25%;
+            width: 35%;
             background: maroon;
             border: 3px solid white;
             text-align: center;
@@ -162,11 +162,17 @@ body{
             color: maroon;
             font-family: 'Jost500Medium';
         }
+        .bold{
+            font-weight: 700;
+            .meikles{
+                color: maroon;
+            }
+        }
         .btn{
             background: transparent;
             color: maroon;
             border: 3px solid maroon;
-            padding: 10px 25px;
+            padding: 6px 10px;
         }
     }
 
@@ -257,7 +263,7 @@ body{
 .donate{
     font-family: 'Jost500Medium';
     margin-top: 5%;
-    
+    .container{
     .background{
         width: 100%;
         align-items: center;
@@ -305,12 +311,14 @@ body{
   color: white;
   padding: 8px 10px;
   border: none;
+  
 }
 }
 }
 }
 }                   
  }
+}
 }
 
 
@@ -339,6 +347,9 @@ body{
     .row{
         display: flex;
         flex-direction: row;
+        .choose p{
+            color: rgba(252, 244, 244, 0.479);
+        }
 
         .text{
             display: flex;
@@ -468,7 +479,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 
 }
-}
+
 .why-us{
     padding: 30px;
 .container{
@@ -490,7 +501,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         }
  
     .left{
-        height: 40vh;
+        height: 70vh;
         background-image: url("../images/Rectangle\ 14.jpg");
         background-position: center;
         background-size: cover;
@@ -536,6 +547,76 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 }
 }
+.donate{
+    font-family: 'Jost500Medium';
+    margin-top: 5%;
+    .container{
+    .background{
+        width: 100%;
+        align-items: center;
+        background-image: url("../images/pexels-cdc-3992949\ 1.jpg");
+        background-position: center;
+         height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .overlay{
+            
+            background: rgba(0, 0, 0, 0.541);
+            height:50vh ;
+          
+    .row{
+        padding: 4rem;
+        .left{
+      
+ .donate-text{
+   
+   
+             h2{
+      color: white;
+      padding-bottom: 50px;
+      width: 120%;
+                    }
+   }
+  .btr{
+                                        
+      display: flex;         
+      gap: 10px;
+
+      form{
+        input{
+            width: 20rem;
+        }
+      }
+                                                 
+
+                                                 form{
+                                                  input{
+                                                //   padding-right: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px 15px;     
+                                                   }
+                                                   }
+                                                
+  button{
+  background: maroon;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  
+}
+}
+}
+}
+}                   
+ }
+}
+}
+}
+
+
 
                                                 
  
